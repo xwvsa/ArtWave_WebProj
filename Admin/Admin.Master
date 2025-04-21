@@ -1,0 +1,97 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="ArtWave_WebProj.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+            background-color:#EFEAF1
+        }
+        .auto-style2 {
+            background-color: #FFFFFF;
+        }
+        .auto-style3 {
+            width: 100%;
+        }
+        .auto-style9 {
+            color: #FFFFFF;
+            width: 160px;
+            text-align: center;
+            background-color: #65558F;
+        }
+        .auto-style10 {
+            background-color: #EFEAF1;
+        }
+        .auto-style11 {
+            color: #660066;
+        }
+        .auto-style12 {
+            color: #FFFFFF;
+            width: 190px;
+            text-align: center;
+            background-color: #65558F;
+        }
+        .auto-style13 {
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+        </div>
+    <table cellpadding="2" class="auto-style1">
+        <tr>
+            <td>
+                <asp:Image ID="Image1" runat="server" Height="103px" Width="191px" ImageUrl="~/image/logo.png" />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <table cellpadding="10" cellspacing="10" class="auto-style3">
+                    <tr>
+                        <td class="auto-style9">
+                            <asp:HyperLink ID="HyperLink4" runat="server" CssClass="auto-style13" NavigateUrl="~/Admin/Dashboard.aspx">Dashboard</asp:HyperLink>
+                        </td>
+                        <td class="auto-style9">
+                            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="auto-style13" NavigateUrl="~/Admin/Manage_Users.aspx">Manage Users</asp:HyperLink>
+                        </td>
+                        <td class="auto-style12">
+                            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="auto-style13" NavigateUrl="~/Admin/Manage_App.aspx">Manage Appointments</asp:HyperLink>
+                        </td>
+                        <td class="auto-style9">
+                            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="auto-style13" NavigateUrl="~/Admin/Manage_Services.aspx">Manage Services</asp:HyperLink>
+                        </td>
+                        <td class="auto-style9">Log Out</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style2">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style10"><span class="auto-style11">All Rights Reserved</span><br class="auto-style11" />
+                <span class="auto-style11">ArtWave</span></td>
+        </tr>
+    </table>
+    </form>
+    </body>
+</html>

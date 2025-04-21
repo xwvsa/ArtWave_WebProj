@@ -88,6 +88,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\Manage_App.aspx" />
+    <Content Include="Admin\Manage_Services.aspx" />
+    <Content Include="Admin\Manage_Users.aspx" />
     <Content Include="App_Data\ArtWave_database.mdf" />
     <Content Include="App_Data\ArtWave_database_log.ldf">
       <DependentUpon>ArtWave_database.mdf</DependentUpon>
@@ -98,6 +102,40 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dashboard.aspx.designer.cs">
+      <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Manage_App.aspx.cs">
+      <DependentUpon>Manage_App.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Manage_App.aspx.designer.cs">
+      <DependentUpon>Manage_App.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Manage_Services.aspx.cs">
+      <DependentUpon>Manage_Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Manage_Services.aspx.designer.cs">
+      <DependentUpon>Manage_Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Manage_Users.aspx.cs">
+      <DependentUpon>Manage_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Manage_Users.aspx.designer.cs">
+      <DependentUpon>Manage_Users.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -121,6 +159,7 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="MasterPage.Master" />
+    <Content Include="Admin\Admin.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
