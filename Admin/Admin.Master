@@ -39,11 +39,17 @@
         .auto-style13 {
             color: #FFFFFF;
         }
+        .auto-style14 {
+            width: 1093px;
+            height: 143px;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
+
     <table cellpadding="2" class="auto-style1">
+      
         <tr>
             <td>
                 <asp:Image ID="Image1" runat="server" Height="103px" Width="191px" ImageUrl="~/image/logo.png" />
@@ -74,12 +80,37 @@
             <td class="auto-style2">
                 <br />
                 <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
+        <div>
+            <br />
+            <br />
+            <br />
+    <table class="auto-style14">
+        <tr>
+            <td>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+                    <p>
+                        <br />
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                    <p>
+                    </p>
+                </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
                 <br />
                 <br />
                 <br />
@@ -90,6 +121,7 @@
                 <span class="auto-style11">ArtWave</span></td>
         </tr>
     </table>
+    </form>
     </form>
     </body>
 </html>

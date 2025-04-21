@@ -88,7 +88,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Add_Availability.aspx" />
+    <Content Include="Admin\Add_Services.aspx" />
     <Content Include="Admin\Dashboard.aspx" />
+    <Content Include="Admin\Edit_Services.aspx" />
     <Content Include="Admin\Manage_App.aspx" />
     <Content Include="Admin\Manage_Services.aspx" />
     <Content Include="Admin\Manage_Users.aspx" />
@@ -102,8 +105,23 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin\Add_Availability.aspx.cs">
+      <DependentUpon>Add_Availability.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add_Availability.aspx.designer.cs">
+      <DependentUpon>Add_Availability.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Add_Services.aspx.cs">
+      <DependentUpon>Add_Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Add_Services.aspx.designer.cs">
+      <DependentUpon>Add_Services.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Admin\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Admin\Admin.Master.designer.cs">
       <DependentUpon>Admin.Master</DependentUpon>
@@ -114,6 +132,13 @@
     </Compile>
     <Compile Include="Admin\Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Edit_Services.aspx.cs">
+      <DependentUpon>Edit_Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Edit_Services.aspx.designer.cs">
+      <DependentUpon>Edit_Services.aspx</DependentUpon>
     </Compile>
     <Compile Include="Admin\Manage_App.aspx.cs">
       <DependentUpon>Manage_App.aspx</DependentUpon>

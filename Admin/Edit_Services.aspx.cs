@@ -7,17 +7,11 @@ using System.Web.UI.WebControls;
 
 namespace ArtWave_WebProj.Admin
 {
-	public partial class Manage_Services : System.Web.UI.Page
+	public partial class Edit_Services : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
 
 		}
-
-        protected void othermethod (object sender, EventArgs e)
-
-        {
-
-        }
-    }
+	}
 }
