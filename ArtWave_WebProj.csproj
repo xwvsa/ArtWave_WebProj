@@ -95,9 +95,9 @@
     <Content Include="Admin\Manage_App.aspx" />
     <Content Include="Admin\Manage_Services.aspx" />
     <Content Include="Admin\Manage_Users.aspx" />
-    <Content Include="App_Data\ArtWave_database.mdf" />
-    <Content Include="App_Data\ArtWave_database_log.ldf">
-      <DependentUpon>ArtWave_database.mdf</DependentUpon>
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
     <Content Include="image\logo.png" />
@@ -196,6 +196,7 @@
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+    <Folder Include="User\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
